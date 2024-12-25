@@ -4,11 +4,11 @@
 
 # Define the finite deformation size. Try several values of this
 # variable to verify that results do not depend on it.
-variable up equal 1.0e-6
+variable up equal 1.0e-6   # 定義有限變形大小。
  
 # Define the amount of random jiggle for atoms
 # This prevents atoms from staying on saddle points
-variable atomjiggle equal 1.0e-5
+variable atomjiggle equal 1.0e-5 #saddle鞍
 
 # Uncomment one of these blocks, depending on what units
 # you are using in LAMMPS and for output
